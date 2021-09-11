@@ -3,7 +3,7 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
 #authorization
-spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials(client_id= '62918d4efeb1493b871cf429f92d1881', client_secret='eb5196981e9442f8bfdbbcfbb6598db1',))
+spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials(client_id= '#', client_secret='#',))
 
 pl_id = "spotify:playlist:4d5Pl5U5aVE9xS3bUozxMr" #playlist id, can also be declared in the method
 
