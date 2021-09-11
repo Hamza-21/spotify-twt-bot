@@ -1,5 +1,7 @@
 from time import sleep
 
+#prints the stores information from a file every 5s
+
 file = open("pl_info2.txt")
 lines = file.readlines()
 
