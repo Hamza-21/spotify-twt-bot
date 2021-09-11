@@ -2,6 +2,8 @@ import sys
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
+#file to get information about a playlist, scrapes the name and link of a song, then saves it into a text file.
+
 #authorization
 spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials(client_id= '#', client_secret='#',))
 
