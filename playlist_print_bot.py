@@ -21,7 +21,7 @@ def twtTests():
         actualTweet = lines[i] + lines[i+1]
         api.update_status(status = actualTweet,)
         i += 2
-        sleep(28800)
+        sleep(28800) #Tweet every 8 hours
 
 if __name__ == '__main__':
     twtTests()
