@@ -2,6 +2,7 @@ import tweepy
 from tweepy.api import API
 from tweepy.models import Media
 from time import sleep
+from server import keep_alive
 
 def twtTests():
     consumer_key = '#'
@@ -15,6 +16,8 @@ def twtTests():
     api = tweepy.API(auth)
     file = open("pl_info2.txt")
     lines = file.readlines()
+    
+    keep_alive()
 
     i = 0
     while (i < 914): #number of lines in the file, can be automated but I'm lazy 
